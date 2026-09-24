@@ -1,0 +1,46 @@
+# Environment
+.env
+.env.local
+.env.*.local
+
+# XAMPP / OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Logs & storage
+logs/*.log
+storage/cache/*
+storage/sessions/*
+storage/temp/*
+!logs/.gitkeep
+!storage/cache/.gitkeep
+!storage/sessions/.gitkeep
+!storage/temp/.gitkeep
+
+# Uploads (keep structure, ignore user content)
+uploads/products/*
+uploads/banners/*
+uploads/avatars/*
+!uploads/products/.gitkeep
+!uploads/banners/.gitkeep
+!uploads/avatars/.gitkeep
+
+# Composer (future)
+/vendor/
+
+# PHPUnit (future)
+.phpunit.result.cache
+/coverage/
+
+# Backup files
+*.sql.gz
+database/backups/*.sql
+!database/backups/.gitkeep
